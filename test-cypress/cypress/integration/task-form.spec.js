@@ -16,12 +16,12 @@ describe("Check for form",()=>{
         .should("have.value",itemName)
     })
 
-    it("it's delete button check",()=>{
-        const itemName = "button"
-        cy.get('.btn')
-        .type(itemName)  
-        .should("have.value",itemName)
-    })
+    // it("it's delete button check",()=>{
+    //     const btnName = "button"
+    //     cy.get('.btn')
+    //     .type(btnName)  
+    //     .should("have.value",btnName)
+    // })
 
 
 })
