@@ -23,6 +23,8 @@ npm run cypress
 
 with this you will be able to see cypress dashboard open.
 
+
+
 If you are setting it up for the first time, it will have an examples folder inside cypress folder with many examples
 that you can see what all you can run.
 
@@ -36,3 +38,11 @@ you can remove the examples folder after that.
     - integration # test files
     - support
 ```
+
+Functionality:
+
+1. Write test case for delete button is present or not
+
+2. Write test case for loading Intial data
+
+3. Write test case for removing item and reduced the data length
