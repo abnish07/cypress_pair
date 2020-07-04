@@ -2,9 +2,9 @@ import React from 'react'
 
 const TaskForm = props =>
 <>{
-  console.log(props)
+  // console.log(props)
 }
-  <form onSubmit = {()=>props.handleSubmit()}>
+  <form onSubmit = {props.handleSubmit}>
     <input
       value={props.value}
       autoFocus

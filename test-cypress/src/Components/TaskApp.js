@@ -61,7 +61,7 @@ export default class TodoApp extends Component {
   }
 
   render () {
-    // console.log(this.state.todos)
+    console.log(this.state.todos)
     return (
       <Router>
         <div className="container-fluid text-center">
@@ -69,7 +69,7 @@ export default class TodoApp extends Component {
             <h1>Tasks</h1>
             <TaskForm value={this.state.inputValue} 
                       handleChange={this.handleChange}
-                      handleSubmit={(e)=>this.handleSubmit(e)}
+                      handleSubmit={this.handleSubmit}
                       
             />
           </header>

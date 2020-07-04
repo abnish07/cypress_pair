@@ -14,7 +14,7 @@ const TaskItem = props =>
 
 const TaskList = props =>
 {
-  console.log(props.todos)
+  // console.log(props.todos)
   return (
 
   <ul className="task-list">
